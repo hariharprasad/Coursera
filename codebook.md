@@ -1,7 +1,8 @@
 
 Codebook
 
-The final dataset is in tidyData.txt file. It contains 35 observations of 50 variables.
+The final dataset is in tidyData.txt file. 
+It contains 35 observations of 50 variables.
 
 This dataset was created from this data:
 
@@ -12,6 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Description
 
 The variables in the final dataset are:
+
 •Subject.Id - The id of the subject performing the activity
 
 •Activity - The type of the activity performed (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)

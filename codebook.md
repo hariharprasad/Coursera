@@ -13,7 +13,9 @@ Description
 
 The variables in the final dataset are:
 •Subject.Id - The id of the subject performing the activity
+
 •Activity - The type of the activity performed (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 •Other variables
 
 Other variables are in the form SignalType-Transformation-Axis. The values are the average of each variable in the original dataset for each activity and each subject. Here's the quote from features_info.txt file explaining the variables' names:
@@ -29,8 +31,13 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 Obtaining cleaned data
 The steps to produce the cleaned dataset are the following:
+
 1.Read and merge the training and testing datasets (files train/X_train.txt, train/y_train.txt, train/subject_train.txt, test/X_test.txt, test/y_test.txt, test/subject_test.txt).
+
 2.Set the names for features as described in features.txt file.
+
 3.Extract the variables describing mean and standard deviation.
+
 4.Replace activity ids with proper names as described in activity_labels.txt file.
+
 5.Reshape the data to create a dataset with the average of each variable for each activity and each subject.
